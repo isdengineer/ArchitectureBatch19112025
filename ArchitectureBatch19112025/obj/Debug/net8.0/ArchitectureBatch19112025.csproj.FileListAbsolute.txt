@@ -1,0 +1,14 @@
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\bin\Debug\net8.0\ArchitectureBatch19112025.exe
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\bin\Debug\net8.0\ArchitectureBatch19112025.deps.json
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\bin\Debug\net8.0\ArchitectureBatch19112025.runtimeconfig.json
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\bin\Debug\net8.0\ArchitectureBatch19112025.dll
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\bin\Debug\net8.0\ArchitectureBatch19112025.pdb
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ArchitectureBatch19112025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ArchitectureBatch19112025.AssemblyInfoInputs.cache
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ArchitectureBatch19112025.AssemblyInfo.cs
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ArchitectureBatch19112025.csproj.CoreCompileInputs.cache
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ArchitectureBatch19112025.dll
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\refint\ArchitectureBatch19112025.dll
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ArchitectureBatch19112025.pdb
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ArchitectureBatch19112025.genruntimeconfig.cache
+C:\Users\shivB\source\repos\ArchitectureBatch19112025\ArchitectureBatch19112025\obj\Debug\net8.0\ref\ArchitectureBatch19112025.dll
