@@ -1,9 +1,8 @@
 ﻿using ArchitectureBatch19112025.DesignPatterns;
-using ArchitectureBatch19112025.DesignPatterns.Adapter;
-using ArchitectureBatch19112025.DesignPatterns.FactoryMethod;
-using ArchitectureBatch19112025.DIandIOC;
-using ArchitectureBatch19112025.DIandIOCSimpleFactory;
-using ArchitectureBatch19112025.OOP;
+using ArchitectureBatch19112025.DesignPatterns.Decorator;
+using ArchitectureBatch19112025.DesignPatterns.ProtoType;
+using ArchitectureBatch19112025.DesignPatterns.Singleton;
+
 
 namespace ArchitectureBatch19112025
 {
@@ -11,9 +10,14 @@ namespace ArchitectureBatch19112025
     {
         static void Main(string[] args)
         {
-            
-            var cust = SimpleFactory.Create(1);
-            cust.Discount();
+
+            var s = new Supplier();
+            s.Name  = "Test";
+            s.Address = new Address() { Street1 = "xyz1" };
+            s.SaveState();
+            s.Name = "Text1";
+            s.Revert();
+
         }
         static void SomeMethod()
         {

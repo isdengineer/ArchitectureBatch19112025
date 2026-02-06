@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureBatch19112025", "ArchitectureBatch19112025\ArchitectureBatch19112025.csproj", "{847340BF-3F47-4CB0-A9FB-AEF86297DB38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureBatch19112025", "ArchitectureBatch19112025\ArchitectureBatch19112025.csproj", "{847340BF-3F47-4CB0-A9FB-AEF86297DB38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerManagementSystem", "CustomerManagementSystem\CustomerManagementSystem.csproj", "{61266E25-4884-4EF8-AEE8-AE07562200E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResilencyPatternPolly", "ResilencyPatternPolly\ResilencyPatternPolly.csproj", "{0E42CEFF-2CE9-49C3-85D2-C3B35EC7A35C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIMOcelot", "APIMOcelot", "{46A4F2DB-F2AC-456A-AFA6-DD374490F5F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryMS", "InventoryMS\InventoryMS.csproj", "{E02B368E-521E-45D2-90D0-5E1B24EFAF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingMS", "AccountingMS\AccountingMS.csproj", "{ABBF114D-28D4-439F-BDE8-B94324364D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIMGateway", "APIMGateway\APIMGateway.csproj", "{A99CD867-3CE3-4EF4-B1C6-FEEC328CA8F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,34 @@ Global
 		{847340BF-3F47-4CB0-A9FB-AEF86297DB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{847340BF-3F47-4CB0-A9FB-AEF86297DB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{847340BF-3F47-4CB0-A9FB-AEF86297DB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61266E25-4884-4EF8-AEE8-AE07562200E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61266E25-4884-4EF8-AEE8-AE07562200E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61266E25-4884-4EF8-AEE8-AE07562200E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61266E25-4884-4EF8-AEE8-AE07562200E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E42CEFF-2CE9-49C3-85D2-C3B35EC7A35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E42CEFF-2CE9-49C3-85D2-C3B35EC7A35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E42CEFF-2CE9-49C3-85D2-C3B35EC7A35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E42CEFF-2CE9-49C3-85D2-C3B35EC7A35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02B368E-521E-45D2-90D0-5E1B24EFAF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02B368E-521E-45D2-90D0-5E1B24EFAF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02B368E-521E-45D2-90D0-5E1B24EFAF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02B368E-521E-45D2-90D0-5E1B24EFAF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBF114D-28D4-439F-BDE8-B94324364D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBF114D-28D4-439F-BDE8-B94324364D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBF114D-28D4-439F-BDE8-B94324364D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBF114D-28D4-439F-BDE8-B94324364D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99CD867-3CE3-4EF4-B1C6-FEEC328CA8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99CD867-3CE3-4EF4-B1C6-FEEC328CA8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99CD867-3CE3-4EF4-B1C6-FEEC328CA8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99CD867-3CE3-4EF4-B1C6-FEEC328CA8F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E02B368E-521E-45D2-90D0-5E1B24EFAF93} = {46A4F2DB-F2AC-456A-AFA6-DD374490F5F2}
+		{ABBF114D-28D4-439F-BDE8-B94324364D1B} = {46A4F2DB-F2AC-456A-AFA6-DD374490F5F2}
+		{A99CD867-3CE3-4EF4-B1C6-FEEC328CA8F7} = {46A4F2DB-F2AC-456A-AFA6-DD374490F5F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC4BC8E8-2E68-4DE1-83AF-097260641C5C}

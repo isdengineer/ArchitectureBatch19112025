@@ -40,6 +40,10 @@ namespace ArchitectureBatch19112025.OOP
             y.Save(this);
             return true;
         }
+        public virtual void Admit()
+        {
+
+        }
         public virtual decimal CalculateBill()
         {
             
